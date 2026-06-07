@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>شريان التجارة — خط السكك الحديدية</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+:root{ --accent:#2d8fa3; }
+.page-hero-bg{ background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(45,143,163,.14) 0%,transparent 65%); }
+.codename{ color:var(--accent); border-color:rgba(45,143,163,.4); background:rgba(45,143,163,.08); }
+.mech-num{ background:rgba(45,143,163,.13); color:var(--accent); border:1px solid rgba(45,143,163,.3); }
+.mech-titles .law{ color:var(--accent); border-color:rgba(45,143,163,.35); background:rgba(45,143,163,.07); }
+.key-points li::before{ color:var(--accent); }
+
+/* route map */
+.route-box{
+  background:rgba(45,143,163,.07);border:1px solid rgba(45,143,163,.25);
+  border-radius:12px;padding:20px;margin:16px 0;
+}
+.route-station{
+  display:flex;align-items:flex-start;gap:12px;padding:10px 0;
+  position:relative;
+}
+.route-station::before{
+  content:'●';position:absolute;left:-20px;color:var(--accent);font-size:14px;
+}
+.station-name{font-size:13px;font-weight:700;color:#fff;}
+.station-note{font-size:12px;color:var(--muted);margin-top:3px;}
+
+/* opportunity boxes */
+.opp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0;}
+.opp-card{
+  background:rgba(45,143,163,.05);border:1px solid rgba(45,143,163,.2);
+  border-radius:10px;padding:14px;
+}
+.opp-icon{font-size:20px;margin-bottom:6px;}
+.opp-title{font-size:13px;font-weight:700;color:#fff;margin-bottom:4px;}
+.opp-desc{font-size:12px;color:var(--text);line-height:1.7;}
+</style>
+</head>
+<body><div class="wm-wrap">
+
+<nav class="topnav">
+  <a href="index.html" class="home">← العودة للرئيسية</a>
+  <span class="nav-sig">وليد عفيف</span>
+  <span class="page-title">شريان التجارة — ٠٩</span>
+</nav>
+
+<header class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-content">
+    <div class="codename">المحور التاسع — شريان التجارة</div>
+    <h1>خط السكك الحديدية</h1>
+    <div class="role">البنية التحتية الاستراتيجية المتاحة</div>
+    <p class="tagline">بئر العاتر تملك خطاً حديدياً استراتيجياً<br>لكنه لا يُستغل اقتصادياً — هذا يجب أن يتغير</p>
+    <div class="hero-img-slot">
+      <!-- <img src="images/railway.jpg" alt="خط السكك الحديدية"> -->
+      <div class="si">🚂</div>
+      <div class="sl">صورة محطة بئر العاتر أو خط السكك الحديدية</div>
+    </div>
+  </div>
+</header>
+
+<main class="page-content">
+
+  <!-- OVERVIEW -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">١</div>
+      <div class="mech-titles">
+        <h3>الموقع الاستراتيجي للخط — حقيقة جغرافية موجودة</h3>
+        <span class="law">البنية التحتية المتراثة — المسؤولية والفرصة</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>خط السكك الحديدية بئر العاتر — الحسين داي ليس مجرد خط تاريخي. إنه شريان اقتصادي يربط الجنوب بالعاصمة. المشكلة أنه حالياً يُستخدم فقط لنقل الركاب بتردد محدود، بينما الطاقة الفعلية للخط توفر إمكانيات لوجستية هائلة لم تُستكشف.</p>
+      <p>بئر العاتر تقع في منتصف الخط تقريباً — موقع مثالي لمحطة لوجستية تُجميع البضائع من الجنوب نحو الشمال والعكس.</p>
+    </div>
+
+    <div class="route-box">
+      <div style="font-size:11px;font-weight:700;color:var(--accent);margin-bottom:12px;letter-spacing:1px;">الخط من الجنوب إلى الشمال</div>
+      <div class="route-station">
+        <div style="padding-left:0;">
+          <div class="station-name">البيض / تمنراست (الجنوب)</div>
+          <div class="station-note">مناطق السياحة والمعادن والطاقة</div>
+        </div>
+      </div>
+      <div class="route-station">
+        <div>
+          <div class="station-name">بئر العاتر (نقطة التجميع)</div>
+          <div class="station-note">الموقع الاستراتيجي — تقاطع الجنوب والشمال</div>
+        </div>
+      </div>
+      <div class="route-station">
+        <div>
+          <div class="station-name">الجزائر العاصمة (الشمال)</div>
+          <div class="station-note">الأسواق الكبيرة والموانئ والتصدير</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MECH 2 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٢</div>
+      <div class="mech-titles">
+        <h3>فرص استخدام الخط — من النقل العام إلى اللوجستيك التجاري</h3>
+        <span class="law">الشركة الوطنية للنقل الحديدي — SNTF وشركاء خاصون</span>
+      </div>
+    </div>
+    <div class="mech-img-slot">
+      <!-- <img src="images/rail-2.jpg" alt="محطة لوجستية"> -->
+      <div class="mi">🏭</div><div class="ml">صورة محطة لوجستية أو محطة بضائع</div>
+    </div>
+    <div class="mech-body">
+      <p>الشركة الوطنية للنقل الحديدي SNTF موجودة — لكنها تُركز على نقل الركاب. الفرصة هي فتح خط بضائع متخصص يربط مناطق الجنوب (المعادن، الفسفاط، الزراعة المعلبة) بأسواق الشمال والمحطات الرئيسية للتصدير.</p>
+      <p>هذا لا يحتاج استثمار جديد ضخم — الخط موجود. يحتاج فقط إعادة تنظيم توقيت القطارات، تخصيص عربات للبضائع، وإنشاء منطقة تجميع في محطة بئر العاتر.</p>
+    </div>
+
+    <div class="opp-grid">
+      <div class="opp-card">
+        <div class="opp-icon">📦</div>
+        <div class="opp-title">تجميع البضائع</div>
+        <div class="opp-desc">محطة تجميع في بئر العاتر تجمع الإنتاج المحلي وتُحضره للنقل بالخط</div>
+      </div>
+      <div class="opp-card">
+        <div class="opp-icon">🏗️</div>
+        <div class="opp-title">منطقة لوجستية</div>
+        <div class="opp-desc">مستودعات ومراكز تجميع وفرز بضائع محيطة بالمحطة</div>
+      </div>
+      <div class="opp-card">
+        <div class="opp-icon">🚚</div>
+        <div class="opp-title">نقل متعدد الأنماط</div>
+        <div class="opp-desc">ربط النقل الحديدي بالنقل البري والجوي عند الحاجة</div>
+      </div>
+      <div class="opp-card">
+        <div class="opp-icon">💼</div>
+        <div class="opp-title">خدمات تجارية</div>
+        <div class="opp-desc">شركات لوجستية خاصة توفر خدمات التخزين والتوزيع</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MECH 3 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٣</div>
+      <div class="mech-titles">
+        <h3>آلية العمل — من المفاوضة إلى التنفيذ</h3>
+        <span class="law">مشروع شراكة بين السلطات والقطاع الخاص</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>النائب البرلماني يأخذ على عاتقه ملف "تفعيل الخط الحديدي" — يفاوض مع وزارة النقل والمدير الجهوي للـ SNTF حول إمكانية تخصيص عربات وأوقات للبضائع.</p>
+      <p>المجلس الولائي يُعد دراسة جدوى حول الحجم المتوقع من البضائع سنوياً. مجلس الأعمال يُبدي استعداده للشراكة والاستثمار في المنطقة اللوجستية.</p>
+      <p>الوالي يجمع الأطراف حول طاولة واحدة: "هل نستطيع تجريب مشروع تجريبي لمدة 6 أشهر؟".</p>
+    </div>
+    <ul class="key-points">
+      <li data-n="أ">النائب يطالب بإدراج "تفعيل الخط الحديدي" في البرنامج الوطني للنقل</li>
+      <li data-n="ب">إعداد دراسة جدوى تُظهر الطاقة الحقيقية للخط في نقل البضائع</li>
+      <li data-n="ج">طرح فرصة استثمارية للشركات اللوجستية الخاصة لتشغيل المحطة</li>
+    </ul>
+  </div>
+
+  <!-- MECH 4 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٤</div>
+      <div class="mech-titles">
+        <h3>منتجات جاهزة للنقل — الزراعة والحرف</h3>
+        <span class="law">استغلال فعلي للموارد المحلية الموجودة</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>بئر العاتر محاطة بمناطق زراعية تنتج تمور وحمضيات — لكن القسم الأكبر يُباع محلياً أو يفسد. الخط الحديدي يمكن أن يفتح السوق الوطنية والتصدير.</p>
+      <p>أيضاً الحرف التقليدية — الفخار والحصير والنسيج — تعاني من عدم الوصول للأسواق البعيدة. النقل بالقطار أرخص من الشاحنة وأسرع من الحمار.</p>
+      <p>الخطوة الأولى: إنشاء "ماركة جودة" للمنتجات المحلية، ثم استخدام الخط كأداة توزيع.</p>
+    </div>
+    <ul class="key-points">
+      <li data-n="أ">حصر المنتجات الزراعية والحرفية ذات الإمكانية التصديرية</li>
+      <li data-n="ب">إنشاء معايير جودة وتدريب المنتجين على المواصفات الوطنية</li>
+      <li data-n="ج">إطلاق حملة تسويقية موجهة للأسواق الشمالية والعاصمة</li>
+    </ul>
+  </div>
+
+  <!-- MECH 5 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٥</div>
+      <div class="mech-titles">
+        <h3>المحطة — بناء قيمة مضافة محلية</h3>
+        <span class="law">الاستثمار الخاص + الدعم الحكومي</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>محطة بئر العاتر الحالية قديمة وبسيطة — لكن يمكن تطويرها بتكلفة معقولة إلى محطة حقيقية للبضائع توفر مناصب شغل محلية وتجذب شركات لوجستية للاستثمار.</p>
+      <p>الفكرة: شركة خاصة (أو تعاونية محلية) تستأجر المحطة من الـ SNTF، وتستثمر في بنية تحتية إضافية (مستودعات، معدات معالجة)، وتوفر خدمات نقل وتجميع للمنتجات المحلية.</p>
+      <p>هذا نموذج ناجح في عدة دول: شركة خاصة تُدير المحطة تحت إشراف حكومي.</p>
+    </div>
+    <ul class="key-points">
+      <li data-n="أ">تقييم الحالة الحالية للمحطة والاحتياجات التطويرية</li>
+      <li data-n="ب">طرح عطاء استثمار لشركة متخصصة أو تعاونية محلية لإدارة المحطة</li>
+      <li data-n="ج">ضمان حد أدنى من عدد القطارات الأسبوعية من قبل الـ SNTF</li>
+    </ul>
+  </div>
+
+</main>
+
+<div class="page-nav">
+  <a href="development.html">← وكالات التنمية</a>
+  <a href="summary.html">الملخص التنفيذي ←</a>
+</div>
+
+<footer>
+  ورقة طريق — بئر العاتر · خط السكك الحديدية — شريان التجارة
+  <div class="footer-sig">© وليد عفيف — جميع الحقوق محفوظة</div>
+</footer>
+
+</div>
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')})},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+document.addEventListener('contextmenu',e=>e.preventDefault());
+document.addEventListener('keydown',e=>{
+  if(e.key==='PrintScreen'||
+    (e.ctrlKey&&e.shiftKey&&(e.key==='S'||e.key==='P'))||
+    (e.metaKey&&e.shiftKey&&(e.key==='3'||e.key==='4'||e.key==='5'))){
+    e.preventDefault();
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رافعة التمويل — وكالات التمويل والدعم</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+:root{ --accent:#7c5cbf; }
+.page-hero-bg{ background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(124,92,191,.14) 0%,transparent 65%); }
+.codename{ color:var(--accent); border-color:rgba(124,92,191,.4); background:rgba(124,92,191,.08); }
+.mech-num{ background:rgba(124,92,191,.13); color:var(--accent); border:1px solid rgba(124,92,191,.3); }
+.mech-titles .law{ color:var(--accent); border-color:rgba(124,92,191,.35); background:rgba(124,92,191,.07); }
+.key-points li::before{ color:var(--accent); }
+
+/* agency cards */
+.agency-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0;}
+.agency-card{
+  background:rgba(124,92,191,.06);border:1px solid rgba(124,92,191,.2);
+  border-radius:10px;padding:16px;
+}
+.agency-name{font-size:13px;font-weight:700;color:#fff;margin-bottom:4px;}
+.agency-full{font-size:10px;color:var(--muted);letter-spacing:.5px;margin-bottom:10px;}
+.agency-desc{font-size:12px;color:var(--text);line-height:1.7;}
+.agency-tag{
+  display:inline-block;margin-top:8px;
+  font-size:9px;letter-spacing:1px;font-weight:700;
+  padding:3px 10px;border-radius:10px;
+  background:rgba(124,92,191,.15);color:var(--accent);border:1px solid rgba(124,92,191,.3);
+}
+</style>
+</head>
+<body><div class="wm-wrap">
+
+<nav class="topnav">
+  <a href="index.html" class="home">← العودة للرئيسية</a>
+  <span class="nav-sig">وليد عفيف</span>
+  <span class="page-title">رافعة التمويل — ٠٧</span>
+</nav>
+
+<header class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-content">
+    <div class="codename">المحور السابع — رافعة التمويل</div>
+    <h1>وكالات التمويل والدعم</h1>
+    <div class="role">الأدوات المالية المتاحة لأبناء المنطقة</div>
+    <p class="tagline">المال موجود — المشكلة أن كثيرين لا يعرفون كيف يصلون إليه<br>هذه الصفحة تُغلق هذه الفجوة</p>
+    <div class="hero-img-slot">
+      <!-- <img src="images/finance.jpg" alt="وكالات التمويل"> -->
+      <div class="si">🏦</div>
+      <div class="sl">صورة مقر وكالة تمويل أو اجتماع استثماري</div>
+    </div>
+  </div>
+</header>
+
+<main class="page-content">
+
+  <!-- AGENCIES OVERVIEW -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">١</div>
+      <div class="mech-titles">
+        <h3>الوكالات الوطنية الفاعلة — من هي وماذا تقدم</h3>
+        <span class="law">منظومة دعم المقاولاتية — الإطار القانوني الجزائري</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>الجزائر تمتلك منظومة دعم مالي للمقاولاتية من بين الأوسع في المنطقة — لكن كثيراً من أبناء المناطق الداخلية كبئر العاتر لا يصلون إليها لأسباب تتعلق بالمعلومة والمرافقة لا بأحقية الاستفادة. الوكالات الثلاث الرئيسية متاحة قانونياً لكل مواطن جزائري.</p>
+    </div>
+
+    <div class="agency-grid">
+      <div class="agency-card">
+        <div class="agency-name">ANSEJ / ANADE</div>
+        <div class="agency-full">الوكالة الوطنية لدعم وتنمية المقاولاتية</div>
+        <div class="agency-desc">تمويل مشاريع الشباب من 19 إلى 40 سنة. قرض بدون فائدة + إعفاء ضريبي لمدة 3 سنوات.</div>
+        <div class="agency-tag">للشباب الحامل لمشروع</div>
+      </div>
+      <div class="agency-card">
+        <div class="agency-name">CNAC</div>
+        <div class="agency-full">الصندوق الوطني للتأمين على البطالة</div>
+        <div class="agency-desc">تمويل مشاريع فئة 35-50 سنة. مخصص للعمال المسرّحين وأصحاب الخبرة المهنية.</div>
+        <div class="agency-tag">للمخضرمين والمسرّحين</div>
+      </div>
+      <div class="agency-card">
+        <div class="agency-name">ANGEM</div>
+        <div class="agency-full">الوكالة الوطنية لتسيير القرض المصغر</div>
+        <div class="agency-desc">قروض صغيرة للنشاطات الحرفية والمنزلية. مناسبة جداً للمناطق الداخلية والمرأة.</div>
+        <div class="agency-tag">للمشاريع الصغيرة جداً</div>
+      </div>
+      <div class="agency-card">
+        <div class="agency-name">AAPI</div>
+        <div class="agency-full">الوكالة الجزائرية لترقية الاستثمار</div>
+        <div class="agency-desc">الشباك الواحد للمستثمرين. مرافقة قانونية وإدارية ومنح الامتيازات للمشاريع الكبيرة.</div>
+        <div class="agency-tag">للمشاريع الكبيرة والمتوسطة</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MECH 2 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٢</div>
+      <div class="mech-titles">
+        <h3>كيف تُفعَّل هذه الوكالات محلياً في بئر العاتر</h3>
+        <span class="law">الفروع الولائية — الحضور الميداني المطلوب</span>
+      </div>
+    </div>
+    <div class="mech-img-slot">
+      <!-- <img src="images/fin-2.jpg" alt="شباك تمويل محلي"> -->
+      <div class="mi">🪟</div><div class="ml">صورة شباك خدمات تمويل محلي</div>
+    </div>
+    <div class="mech-body">
+      <p>لكل من هذه الوكالات فرع ولائي. المشكلة في الغالب ليست في غياب الفرع بل في ضعف التواصل بين الفرع والشباب الحامل للمشروع. الفجوة هي فجوة معلومة وثقة لا فجوة إمكانية.</p>
+      <p>على المستوى المحلي المطلوب هو: أن يكون ممثل كل وكالة حاضراً في فعاليات المجتمع المدني، وأن يُدرج النائب البرلماني ملف التمويل في نقاشاته، وأن تُنظم البلدية يوماً توعوياً ربعياً يجمع الشباب بممثلي الوكالات تحت سقف واحد.</p>
+    </div>
+    <ul class="key-points">
+      <li data-n="أ">تنظيم يوم مفتوح ربعي في البلدية يجمع الشباب بمسؤولي الوكالات الأربع مباشرة</li>
+      <li data-n="ب">إعداد دليل مبسط باللغة العربية يشرح شروط كل وكالة وخطوات التقديم</li>
+      <li data-n="ج">تعيين "منسق تمويل" من المجتمع المدني يرافق أصحاب المشاريع خلال مرحلة الملف</li>
+    </ul>
+  </div>
+
+  <!-- MECH 3 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٣</div>
+      <div class="mech-titles">
+        <h3>الإعفاءات الجبائية للمناطق الحدودية والمحرومة</h3>
+        <span class="law">قانون المالية — مناطق الجنوب والهضاب العليا</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>بئر العاتر تقع ضمن المناطق التي تستفيد من إعفاءات ضريبية خاصة بموجب قوانين المالية المتعاقبة والمرسوم التنفيذي المتعلق بالمناطق الجبلية والحدودية والهضاب العليا. هذه الإعفاءات تشمل:</p>
+      <p>إعفاء من الضريبة على الدخل الإجمالي والضريبة على أرباح الشركات لمدة تصل إلى 10 سنوات، وإعفاء من الرسم على القيمة المضافة على المعدات والتجهيزات في مرحلة الإنشاء، وتخفيضات على حصص التأمينات الاجتماعية لأصحاب العمل.</p>
+      <p>المشكلة أن كثيراً من المستثمرين لا يعلمون بهذه الميزة — وهنا يكمن دور مدير الضرائب كعُقدة في حبل التسلق: إعلام فاعل لا انتظار أن يأتي المستثمر سائلاً.</p>
+    </div>
+    <ul class="key-points">
+      <li data-n="أ">إصدار نشرة توعوية من مديرية الضرائب تُفصّل الإعفاءات المتاحة للمنطقة</li>
+      <li data-n="ب">تضمين ملف تعريف الولاية بقائمة الإعفاءات الجبائية كورقة جذب تنافسية</li>
+      <li data-n="ج">تنظيم لقاء سنوي بين مدير الضرائب ورجال الأعمال لشرح المستجدات التشريعية</li>
+    </ul>
+  </div>
+
+  <!-- MECH 4 -->
+  <div class="mech-block reveal">
+    <div class="mech-header">
+      <div class="mech-num">٤</div>
+      <div class="mech-titles">
+        <h3>صندوق الجنوب وبرامج التنمية الخاصة</h3>
+        <span class="law">برامج التنمية المحلية — FCCL والمخططات الخماسية</span>
+      </div>
+    </div>
+    <div class="mech-body">
+      <p>صندوق الجنوب والهضاب العليا والبرامج الخاصة للتنمية المحلية تمثل موارد مالية حقيقية موجهة للمناطق كبئر العاتر. المشكلة أن توجيه هذه الموارد نحو مشاريع منتجة بدل مشاريع خدمية فقط يتطلب ضغطاً محلياً منظماً ومقترحات ممأسسة.</p>
+      <p>المجلس الولائي والنائب البرلماني معاً يستطيعان التأثير على أولويات توجيه هذه الأموال — شرط أن يكون لديهم ملف اقتصادي جاهز يُثبت أن المنطقة تعرف ما تريد.</p>
+    </div>
+    <ul class="key-points">
+      <li data-n="أ">إعداد قائمة مشاريع اقتصادية أولوية مُقدَّرة التكلفة لتقديمها ضمن البرامج الخاصة</li>
+      <li data-n="ب">مطالبة النائب البرلماني بالتدخل لتوجيه حصة من صندوق الجنوب نحو مشاريع منتجة</li>
+      <li data-n="ج">الربط بين المشاريع المطروحة ومناصب الشغل التي ستُحدثها كحجة إقناعية أمام الجهات الوطنية</li>
+    </ul>
+  </div>
+
+</main>
+
+<div class="page-nav">
+  <a href="pioneer.html">← رائد النهضة</a>
+  <a href="railway.html">خط السكك الحديدية ←</a>
+</div>
+
+<footer>
+  ورقة طريق — بئر العاتر · وكالات التمويل والدعم — رافعة التمويل
+  <div class="footer-sig">© وليد عفيف — جميع الحقوق محفوظة</div>
+</footer>
+
+</div>
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')})},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+// disable right click
+document.addEventListener('contextmenu',e=>e.preventDefault());
+// disable common screenshot shortcuts
+document.addEventListener('keydown',e=>{
+  if(e.key==='PrintScreen'||
+    (e.ctrlKey&&e.shiftKey&&(e.key==='S'||e.key==='P'))||
+    (e.metaKey&&e.shiftKey&&(e.key==='3'||e.key==='4'||e.key==='5'))){
+    e.preventDefault();
+  }
+});
+</script>
+</body>
+</html>
